@@ -1,223 +1,112 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "YaVoy Administrative Dashboard",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Complete administrative management system for shipping and mobility company, developed with modern technologies to optimize logistics operations.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Developed a complete dashboard with Next.js for the user interface, providing a modern and responsive experience.",
+      "Implemented a robust backend with NestJS, ensuring system scalability and maintainability.",
+      "Integrated shipping management functionalities, package tracking, and user administration.",
+      "Designed a reporting and analytics system to optimize the company's logistics operations.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/Dashboard_YaVoy.jpg",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Next.js",
+        path: "/assets/logos/nextjs.png",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "NestJS",
+        path: "/assets/logos/nestjs.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "Node.js",
+        path: "/assets/logos/nodejss.png",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "PostgreSQL",
+        path: "/assets/logos/Postgresql.png",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Currency Calculator Web App",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Web application to calculate dollar value and price averages, developed with Go and Python backend, and JavaScript frontend.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Developed the backend using Go for high performance and Python for financial data processing.",
+      "Implemented RESTful APIs to get real-time exchange rates from multiple sources.",
+      "Created an intuitive web interface with vanilla JavaScript for instant conversion calculations.",
+      "Integrated algorithms for calculating averages and analyzing currency price trends.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/Conversor de monedas.jpg",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "Backend",
+        path: "/assets/logos/nodejss.png",
       },
       {
         id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
+        name: "API",
+        path: "/assets/logos/express.png",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
       },
     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Currency Calculator Mobile App",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "Native mobile application for currency calculation and price averages, with Go and Python backend, and React Native frontend.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Developed a native mobile application with React Native for iOS and Android.",
+      "Implemented the same robust backend in Go and Python for consistency with the web version.",
+      "Integrated push notifications for alerts on significant exchange rate changes.",
+      "Optimized the mobile experience with touch gestures and offline calculations for better usability.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/conversor_movil.jpg",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "React Native",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "Backend",
+        path: "/assets/logos/nodejss.png",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "API",
+        path: "/assets/logos/express.png",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Mobile",
+        path: "/assets/logos/github.svg",
       },
     ],
   },
@@ -226,17 +115,17 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://wa.me/+584129562826",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/leandro-garcia-82097832b",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/leandr.dev?igsh=MWNtcHh6YnRrYzhuaQ==",
     icon: "/assets/socials/instagram.svg",
   },
 ];
@@ -244,28 +133,28 @@ export const mySocials = [
 export const experiences = [
   {
     title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    job: "Freelance (Orion.Dev)",
+    date: "2022-2023",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
+      "Designed and developed robust **RESTful APIs** using **Node.js**, ensuring application security and efficiency in communication.",
+      "Implemented dynamic and highly interactive **user interfaces** with **JavaScript**, significantly enhancing the user experience.",
+      "Managed and optimized **PostgreSQL databases**, ensuring data integrity, scalability, and performance for critical projects.",
+      "Developed **process automation solutions** and custom scripts with **JavaScript and Node.js**, streamlining operations and reducing manual effort.",
+      "Executed complex system integrations, enabling seamless communication between various platforms and services."
+    ]
+},
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Full Stack Developer",
+    job: "Sistemas Tecnológicos Alcaraván",
+    date: "2023-2025 (Present)",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
+      "Was part of the full stack development team for the **Integral Health Management (GNUHealth)** project, contributing to the implementation of robust solutions.",
+      "Developed the **backend** using **Python**, building efficient and scalable APIs for health data management.",
+      "Created **dynamic and responsive user interfaces** with **React and Next.js**, enhancing user experience and system interaction.",
+      "Applied **testing and QA methodologies** using **JMeter**, contributing to the stability, performance, and reliability of applications.",
+      "Collaborated across all phases of the software development lifecycle, from design to implementation and maintenance."
+    ]
+},
   {
     title: "Freelance Developer",
     job: "Self-Employed",
